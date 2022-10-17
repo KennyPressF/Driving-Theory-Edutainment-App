@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &772234928467180292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 772234928467180299}
+  - component: {fileID: 772234928467180298}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &772234928467180299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772234928467180292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.38, y: -2.85, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &772234928467180298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772234928467180292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3087806c2aead34db99620623181272, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCarArray:
+  - {fileID: 8734272770366531282, guid: da1aac8b227e5d644a5ea2e060b1906c, type: 3}
+  - {fileID: 3703473486197642982, guid: 26030b0830cd8cc43920ad1076f9e590, type: 3}
+  - {fileID: 6234619560608935599, guid: a8f8e45ca43078243a356ba871f6e01b, type: 3}
+  - {fileID: 2214282400160853953, guid: 036e0e7f8a6df55468ee9bfdce0e1559, type: 3}
+  - {fileID: 6092138464476097880, guid: 372da793529a7aa458e9549ac6b790bf, type: 3}
+  - {fileID: 2643402777817400194, guid: 7a21ac59dfecf6842b8e97a0ca7a153d, type: 3}
+  playerSize: {x: 0.45, y: 0.45, z: 0.45}
+  targetPosition: {x: 0, y: 0}
+  moveAmount: 0.94
+  moveSpeed: 25
+  maxXValue: 1.41
+  minXValue: -1.41
+  playerLives: 0
+  playerFuel: 0
+  fuelSlider: {fileID: 0}
+  playerHandling: 0
+  playerIsAlive: 0

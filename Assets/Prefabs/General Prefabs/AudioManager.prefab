@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9011164684329057189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7157439768360856732}
+  - component: {fileID: 2544759773281234203}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7157439768360856732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9011164684329057189}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2544759773281234203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9011164684329057189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67e220d4e6e13cb4d889c07c7c27badf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundArray:
+  - name: Main Theme
+    audioClip: {fileID: 8300000, guid: d15a051afcb7b3b4784bcea3f2852dc0, type: 3}
+    audioClipLength: 0
+    volume: 1
+    pitch: 1
+    mixerGroup: {fileID: 24300002, guid: c3da9b34d706c6749841fcbbb7d4e9bd, type: 2}
+    loop: 1
+    audioSource: {fileID: 0}
+  - name: Button Press
+    audioClip: {fileID: 8300000, guid: 4ee4c840d0126dc4bb3283e08a4c46c0, type: 3}
+    audioClipLength: 0
+    volume: 1
+    pitch: 1
+    mixerGroup: {fileID: 24300002, guid: 49d34eae0061309469df2c489dfc8a95, type: 2}
+    loop: 0
+    audioSource: {fileID: 0}
+  - name: Car Select
+    audioClip: {fileID: 8300000, guid: 3baa5d18d91fdd24d8a9f7cd05a2bf47, type: 3}
+    audioClipLength: 0
+    volume: 1
+    pitch: 1
+    mixerGroup: {fileID: 24300002, guid: 49d34eae0061309469df2c489dfc8a95, type: 2}
+    loop: 0
+    audioSource: {fileID: 0}
+  - name: Level Select
+    audioClip: {fileID: 8300000, guid: 1b0b4df64ee72d14eb5325b7db745f1b, type: 3}
+    audioClipLength: 0
+    volume: 1
+    pitch: 1
+    mixerGroup: {fileID: 24300002, guid: 49d34eae0061309469df2c489dfc8a95, type: 2}
+    loop: 0
+    audioSource: {fileID: 0}
+  - name: Purchase
+    audioClip: {fileID: 8300000, guid: d57103c80991d5245a1cfb91458ebdb3, type: 3}
+    audioClipLength: 0
+    volume: 1
+    pitch: 1
+    mixerGroup: {fileID: 24300002, guid: 49d34eae0061309469df2c489dfc8a95, type: 2}
+    loop: 0
+    audioSource: {fileID: 0}
+  - name: Right Answer
+    audioClip: {fileID: 8300000, guid: 0173056ad244c1847be731dbe4010f02, type: 3}
+    audioClipLength: 0
+    volume: 1
+    pitch: 1
+    mixerGroup: {fileID: 24300002, guid: 49d34eae0061309469df2c489dfc8a95, type: 2}
+    loop: 0
+    audioSource: {fileID: 0}
+  - name: Wrong Answer
+    audioClip: {fileID: 8300000, guid: 1225e30d136bb7a4d869622672653654, type: 3}
+    audioClipLength: 0
+    volume: 1
+    pitch: 1
+    mixerGroup: {fileID: 24300002, guid: 49d34eae0061309469df2c489dfc8a95, type: 2}
+    loop: 0
+    audioSource: {fileID: 0}
+  - name: Car Engine
+    audioClip: {fileID: 8300000, guid: fe9c83c31c178c84c821daeeef4ce505, type: 3}
+    audioClipLength: 0
+    volume: 1
+    pitch: 1
+    mixerGroup: {fileID: 24300002, guid: 49d34eae0061309469df2c489dfc8a95, type: 2}
+    loop: 1
+    audioSource: {fileID: 0}
+  - name: Collision
+    audioClip: {fileID: 8300000, guid: efaf7441fd4c2024cb7dacfb74b62b72, type: 3}
+    audioClipLength: 0
+    volume: 1
+    pitch: 1
+    mixerGroup: {fileID: 24300002, guid: 49d34eae0061309469df2c489dfc8a95, type: 2}
+    loop: 0
+    audioSource: {fileID: 0}
+  - name: Coin Pickup
+    audioClip: {fileID: 8300000, guid: ab2d62d0c841f5e4a8bf54289a288ac4, type: 3}
+    audioClipLength: 0
+    volume: 1
+    pitch: 1
+    mixerGroup: {fileID: 24300002, guid: 49d34eae0061309469df2c489dfc8a95, type: 2}
+    loop: 0
+    audioSource: {fileID: 0}
+  - name: Fuel Pickup
+    audioClip: {fileID: 8300000, guid: 39199273e7c51ae48b1a9e5f916039b0, type: 3}
+    audioClipLength: 0
+    volume: 1
+    pitch: 1
+    mixerGroup: {fileID: 24300002, guid: 49d34eae0061309469df2c489dfc8a95, type: 2}
+    loop: 0
+    audioSource: {fileID: 0}
+  - name: L Plate Pickup
+    audioClip: {fileID: 8300000, guid: 2905e1f10fe98c444882117fcfe57990, type: 3}
+    audioClipLength: 0
+    volume: 1
+    pitch: 1
+    mixerGroup: {fileID: 24300002, guid: 49d34eae0061309469df2c489dfc8a95, type: 2}
+    loop: 0
+    audioSource: {fileID: 0}
+  - name: Player Death
+    audioClip: {fileID: 8300000, guid: b9c7836b430ea7442b0a18378fbe41f4, type: 3}
+    audioClipLength: 0
+    volume: 1
+    pitch: 1
+    mixerGroup: {fileID: 24300002, guid: 49d34eae0061309469df2c489dfc8a95, type: 2}
+    loop: 0
+    audioSource: {fileID: 0}
+  - name: Level Complete
+    audioClip: {fileID: 8300000, guid: 8fa5dbfd2d476d14eba3da48aac8db40, type: 3}
+    audioClipLength: 0
+    volume: 1
+    pitch: 1
+    mixerGroup: {fileID: 24300002, guid: 49d34eae0061309469df2c489dfc8a95, type: 2}
+    loop: 0
+    audioSource: {fileID: 0}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 278b1f0828478f34d8c4a14aac5d0e3a, type: 3}
+  m_Name: Text Q 5
+  m_EditorClassIdentifier: 
+  question: When you see hazard lights ahead you should use your mirrors. Why is
+    this?
+  answers:
+  - Because you will need to accelerate out of danger
+  - To assess how your actions will affect following traffic
+  - Because you will need to brake sharply to stop
+  - To check whats happening on the road ahead
+  correctAnswerIndex: 1

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52910c1e7d772cd47a470a10e3724fa8, type: 3}
+  m_Name: Image Q 6
+  m_EditorClassIdentifier: 
+  question: What does this sign mean?
+  roadSignImage: {fileID: 21300000, guid: deddc5b7dddf3014caa824349f9ee723, type: 3}
+  answers:
+  - Motorcycles only
+  - No mototrcycles
+  - Be aware of motorcycles
+  - Motorcycle training centre ahead
+  correctAnswerIndex: 1
