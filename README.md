@@ -5,6 +5,7 @@ An app designed for mobile and tablet platforms that gamifies revision modules f
 
 ### Link:
 https://badbackgames.itch.io/driving-theory-edutainment-app
+
 (Note: This project was intended for mobile use and as such it may not format correctly in the WebGL build on some browsers. If this is the case please zoom out the in-browser view to scale the app properly for your monitor)
 
 ### What I learned:
