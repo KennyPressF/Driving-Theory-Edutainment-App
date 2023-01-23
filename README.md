@@ -4,5 +4,6 @@
 An app designed for mobile and tablet platforms that gamifies revision modules for the UK Driving Theory Test.
 
 ###What I learned:
-- This project had a particular focus on UI/UX design. Formatting the assets to display properly on a range of screen reolutions was at the forefront of this project's design philosophy.
-- I implemented an 'energy' system commonly found in modern mobile apps that are free to download. The aim of this was to facilitate the inclusion
+- The core of this app is broken into three distinct sections; a multiple choice quiz with a timer and rewards, a functioning 'market-place' and upgrades system, and an endless runner style video game that serves as the end goal for the quiz and upgrades systems. When programming this app I took particular care to design and re-factor these three systems to work well on their own, in addition to facilitating each other. This way each part is independently scaleable.
+- This project had a particular focus on UI/UX design. The majority of this project was to improve my understanding of Unity's UI systems.
+- I implemented an 'energy' system commonly found in modern mobile apps that are free to download. The aim of this was to drive the use of targeted adverts using Google and Unity Monetisation SDK.
